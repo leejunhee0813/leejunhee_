@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657892, g: 0.4964128, b: 0.5748173, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -160,6 +160,7 @@ GameObject:
   - component: {fileID: 258014808}
   - component: {fileID: 258014807}
   - component: {fileID: 258014811}
+  - component: {fileID: 258014812}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -257,6 +258,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHP: 50
+--- !u!114 &258014812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258014806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8180620ad003ff2468e6be029a20271e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 708256401}
+  state: 0
+  findDistance: 5
+  moveSpeed: 1
+  attackDistance: 1
 --- !u!1 &383444464 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8766291226888764831, guid: b9ba1f4f9a5868d42babae8ff10c7387, type: 3}
@@ -702,6 +720,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rotateSpeed: 10
+  Point: {x: 0, y: 0, z: 0}
 --- !u!1001 &759714088
 PrefabInstance:
   m_ObjectHideFlags: 0

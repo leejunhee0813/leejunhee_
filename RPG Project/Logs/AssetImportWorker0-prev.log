@@ -1,0 +1,93 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1052; Version 2009; 64bit' Language: 'ko' Physical Memory: 16270 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Users\Default.DESKTOP-6F3BTUF\Desktop\2020.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Default.DESKTOP-6F3BTUF/Desktop/leejunhee_/RPG Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49492
+Successfully changed project path to: C:/Users/Default.DESKTOP-6F3BTUF/Desktop/leejunhee_/RPG Project
+C:/Users/Default.DESKTOP-6F3BTUF/Desktop/leejunhee_/RPG Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 32.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path C:/Users/Default.DESKTOP-6F3BTUF/Desktop/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Default.DESKTOP-6F3BTUF/Desktop/leejunhee_/RPG Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Users/Default.DESKTOP-6F3BTUF/Desktop/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/Default.DESKTOP-6F3BTUF/Desktop/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/Default.DESKTOP-6F3BTUF/Desktop/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/Default.DESKTOP-6F3BTUF/Desktop/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002185 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 28.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.287 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000937 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.987 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1084 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.8 MB.
+System memory in use after: 56.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1530.
+Total: 3.005400 ms (FindLiveObjects: 0.302600 ms CreateObjectMapping: 0.098900 ms MarkObjects: 2.480200 ms  DeleteObjects: 0.122000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts
+  artifactKey: Guid(5ce8f924fc024f548b6b08e3a8acced6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(5ce8f924fc024f548b6b08e3a8acced6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf0bd2d03a2efbc25584ea87c417540') in 0.012171 seconds
+  Import took 0.014643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.401072 seconds.
+  path: Assets/Scripts/Player
+  artifactKey: Guid(25f192c4fec8f754a9a169b00be55c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player using Guid(25f192c4fec8f754a9a169b00be55c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343ae04b515f96ad6c435e246dd4c205') in 0.008266 seconds
+  Import took 0.010722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.546169 seconds.
+  path: Assets/Scripts/Enemy/Enemy.cs
+  artifactKey: Guid(04cc088e7aaaf91429e5aa8e53479485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/Enemy.cs using Guid(04cc088e7aaaf91429e5aa8e53479485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e69eb9a8938163f6e7e1711dc0fee5') in 0.051783 seconds
+  Import took 0.053853 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
