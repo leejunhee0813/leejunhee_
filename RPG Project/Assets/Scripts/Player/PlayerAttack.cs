@@ -43,8 +43,14 @@ public class PlayerAttack : MonoBehaviour
                     if (Vector3.Distance(enemy.position, transform.position) < attackRange)
                     {
                         // EnemyFSM 컴포넌트를 가져와서, Damaged 함수를 실행한다.
-                        EnemyHP efsm = hitinfo.transform.GetComponent<EnemyHP>();
-                        efsm.Damaged(attackDamage);
+                        EnemyHP enemyHp = hitinfo.transform.GetComponent<EnemyHP>();
+                        enemyHp.Damaged(attackDamage);
+                        Monstermove monstermove = hitinfo.transform.GetComponent<Monstermove>();
+                        monstermove.Attacked();
+
+                        
+
+
                     }
                 }
             }

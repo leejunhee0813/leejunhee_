@@ -108,7 +108,7 @@ public class Monstermove : MonoBehaviour
             // 5.나와 target사이의 거리를 구해서
             float distance = Vector3.Distance(transform.position, target.transform.position);
             // 6.만약 그 거리가 공격거리보다 크면
-            if (distance > attackDistance)
+            if ((target.transform.position-transform.position).magnitude > attackDistance)
             {
                 // 7.move상태로 전이하고 싶다
                 state = eMonsterState.chase;
@@ -122,6 +122,9 @@ public class Monstermove : MonoBehaviour
     public void Attacked()
     {
         //플레이어에게 공격 받았을 때 데미지를 표현하고,hp가 0이 되었을 때 death로 전이하고 싶다
+
+        
+
     }
 
     public void Death()
